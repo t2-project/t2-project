@@ -1,0 +1,36 @@
+[submodule "orchestrator"]
+	path = orchestrator
+	url = ../orchestrator.git
+[submodule "inventory"]
+	path = inventory
+	url = ../inventory.git
+[submodule "uibackend"]
+	path = uibackend
+	url = ../uibackend.git
+[submodule "documentation"]
+	path = documentation
+	url = ../documentation.git
+[submodule "e2e-tests"]
+	path = e2e-tests
+	url = ../e2e-tests.git
+[submodule "ui"]
+	path = ui
+	url = ../ui.git
+[submodule "common"]
+	path = common
+	url = ../common.git
+[submodule "kube"]
+	path = kube
+	url = ../kube.git
+[submodule "order"]
+	path = order
+	url = ../order.git
+[submodule "payment"]
+	path = payment
+	url = ../payment.git
+[submodule "creditinstitute"]
+	path = creditinstitute
+	url = ../creditinstitute.git
+[submodule "cart"]
+	path = cart
+	url = ../cart.git
