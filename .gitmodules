@@ -1,36 +1,36 @@
 [submodule "orchestrator"]
 	path = orchestrator
-	url = git@github.com:t2-project/orchestrator.git
+	url = ../orchestrator.git
 [submodule "inventory"]
 	path = inventory
-	url = git@github.com:t2-project/inventory.git
+	url = ../inventory.git
 [submodule "uibackend"]
 	path = uibackend
-	url = git@github.com:t2-project/uibackend.git
+	url = ../uibackend.git
 [submodule "documentation"]
 	path = documentation
-	url = git@github.com:t2-project/documentation.git
+	url = ../documentation.git
 [submodule "e2e-tests"]
 	path = e2e-tests
-	url = git@github.com:t2-project/e2e-tests.git
+	url = ../e2e-tests.git
 [submodule "ui"]
 	path = ui
-	url = git@github.com:t2-project/ui.git
+	url = ../ui.git
 [submodule "common"]
 	path = common
-	url = git@github.com:t2-project/common.git
+	url = ../common.git
 [submodule "kube"]
 	path = kube
-	url = git@github.com:t2-project/kube.git
+	url = ../kube.git
 [submodule "order"]
 	path = order
-	url = git@github.com:t2-project/order.git
+	url = ../order.git
 [submodule "payment"]
 	path = payment
-	url = git@github.com:t2-project/payment.git
+	url = ../payment.git
 [submodule "creditinstitute"]
 	path = creditinstitute
-	url = git@github.com:t2-project/creditinstitute.git
+	url = ../creditinstitute.git
 [submodule "cart"]
 	path = cart
-	url = git@github.com:t2-project/cart.git
+	url = ../cart.git
