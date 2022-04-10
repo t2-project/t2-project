@@ -1,0 +1,118 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<properties>
+		<t2.version>1.0.0-SNAPSHOT</t2.version>
+		<spring.boot.version>2.4.4</spring.boot.version>
+		<io.eventuate.tram.core.version>0.29.0.RELEASE</io.eventuate.tram.core.version>
+		<io.eventuate.tram.sagas.version>0.18.0.RELEASE</io.eventuate.tram.sagas.version>
+		<jaeger.version>3.2.0</jaeger.version>
+		<jacoco.version>0.8.7</jacoco.version>
+		<micrometer.version>1.5.5</micrometer.version>
+		<resilience4j.version>1.7.0</resilience4j.version>
+		<springdoc.version>1.5.11</springdoc.version>
+		<java.version>11</java.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.4.4</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<groupId>de.unistuttgart.t2</groupId>
+	<artifactId>t2store</artifactId>
+	<version>${t2.version}</version>
+	<packaging>pom</packaging>
+
+	<name>T2Store</name>
+	<description>Microservice reference architecture loosely based on the TeaStore.</description>
+	<url>https://t2-documentation.readthedocs.io</url>
+
+	<developers>
+		<developer>
+			<id>delvh</id>
+			<name>Leon Hofmeister</name>
+			<email>leon@kske.dev</email>
+			<url>https://github.com/delvh</url>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>Europe/Berlin</timezone>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:https://github.com/t2-project/t2store.git</connection>
+		<developerConnection>scm:git:git@github.com:t2-project/t2store.git</developerConnection>
+		<url>https://github.com/t2-project/t2store.git</url>
+	</scm>
+
+	<dependencies>
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.8.1</version>
+					<configuration>
+						<release>17</release>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.0.0-M5</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+
+			<!-- Generate coverage report -->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>${jacoco.version}</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>report</id>
+						<phase>test</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<modules>
+		<module>cart</module>
+		<module>common</module>
+		<module>creditinstitute</module>
+		<module>e2e-tests</module>
+		<module>inventory</module>
+		<module>orchestrator</module>
+		<module>order</module>
+		<module>payment</module>
+		<module>ui</module>
+		<module>uibackend</module>
+	</modules>
+</project>
+
