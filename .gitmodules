@@ -1,9 +1,6 @@
 [submodule "cart"]
 	path = cart
 	url = ../cart.git
-[submodule "caus"]
-	path = caus
-	url = ../caus.git
 [submodule "common"]
 	path = common
 	url = ../common.git
