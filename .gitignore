@@ -24,5 +24,5 @@ hs_err_pid*
 
 # Do not commit Apache JMeter installations in this repo as they are only installed here for convenience during loadprofile testing
 apache-jmeter-*/
-# Do not commit loadprofiles in this repo, use kube repo instead
+# Do not commit loadprofiles in this repo, use devops repo instead
 *.jmx 

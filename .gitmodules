@@ -19,9 +19,9 @@
 [submodule "inventory"]
 	path = inventory
 	url = ../inventory.git
-[submodule "kube"]
-	path = kube
-	url = ../kube.git
+[submodule "devops"]
+	path = devops
+	url = ../devops.git
 [submodule "orchestrator"]
 	path = orchestrator
 	url = ../orchestrator.git
