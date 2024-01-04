@@ -34,3 +34,6 @@
 [submodule "uibackend"]
 	path = uibackend
 	url = ../uibackend.git
+[submodule "computation-simulator"]
+	path = computation-simulator
+	url = ../computation-simulator.git
