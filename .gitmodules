@@ -37,3 +37,6 @@
 [submodule "computation-simulator"]
 	path = computation-simulator
 	url = ../computation-simulator.git
+[submodule "modulith"]
+	path = modulith
+	url = ../modulith.git
