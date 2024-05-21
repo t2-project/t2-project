@@ -17,3 +17,9 @@ Via _SSH_:
 ```bash
 git clone --recursive git@github.com:t2-project/t2-project.git
 ```
+
+## Update Submodules
+
+```bash
+git submodule update --recursive --remote
+```
