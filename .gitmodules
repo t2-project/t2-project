@@ -1,42 +1,12 @@
-[submodule "cart"]
-	path = cart
-	url = ../cart.git
-[submodule "common"]
-	path = common
-	url = ../common.git
-[submodule "creditinstitute"]
-	path = creditinstitute
-	url = ../creditinstitute.git
 [submodule "documentation"]
 	path = documentation
 	url = ../documentation.git
-[submodule "e2e-tests"]
-	path = e2e-tests
-	url = ../e2e-tests.git
-[submodule "inventory"]
-	path = inventory
-	url = ../inventory.git
 [submodule "devops"]
 	path = devops
 	url = ../devops.git
-[submodule "orchestrator"]
-	path = orchestrator
-	url = ../orchestrator.git
-[submodule "order"]
-	path = order
-	url = ../order.git
-[submodule "payment"]
-	path = payment
-	url = ../payment.git
-[submodule "ui"]
-	path = ui
-	url = ../ui.git
-[submodule "uibackend"]
-	path = uibackend
-	url = ../uibackend.git
-[submodule "computation-simulator"]
-	path = computation-simulator
-	url = ../computation-simulator.git
+[submodule "microservices"]
+	path = microservices
+	url = ../microservices.git
 [submodule "modulith"]
 	path = modulith
 	url = ../modulith.git
