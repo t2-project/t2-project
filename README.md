@@ -1,10 +1,11 @@
 # T2-Project
 
 This repository acts as a parent for all repositories related to the T2-Project:
-- [devops](./devops/)
-- [documentation](./documentation/)
-- [microservices](./microservices/) (another parent repository for all microservices)
-- [modulith](./modulith/)
+
+- [devops](https://github.com/t2-project/devops/)
+- [documentation](https://github.com/t2-project/documentation)
+- [microservices](https://github.com/t2-project/microservices) (another parent repository for all microservices)
+- [modulith](https://github.com/t2-project/modulith)
 
 ## Documentation
 
