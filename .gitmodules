@@ -1,12 +1,16 @@
 [submodule "documentation"]
 	path = documentation
 	url = ../documentation.git
+	branch = main
 [submodule "devops"]
 	path = devops
 	url = ../devops.git
+	branch = main
 [submodule "microservices"]
 	path = microservices
 	url = ../microservices.git
+	branch = main
 [submodule "modulith"]
 	path = modulith
 	url = ../modulith.git
+	branch = main
